@@ -242,7 +242,7 @@ $(document).ready(function () {
                     if (response['success']) {
                         alert('Added Successfully')
                         console.log(response);
-                        // location.reload()
+                        location.reload()
                     }
                 }
             });
@@ -356,7 +356,7 @@ $(document).ready(function () {
                 success: function (response) {
                     if (response['success']) {
                         alert('Added Successfully')
-                        // location.reload()
+                        location.reload()
                         console.log(response);
                     }
                 }
